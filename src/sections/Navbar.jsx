@@ -28,7 +28,7 @@ export default function Navbar() {
       <div className="px-6 py-4 max-w-7xl mx-auto flex justify-between items-center relative z-20">
         
         {/* Stylized Typographic Logo */}
-        <a href="/" className="flex items-baseline gap-1.5 select-none group">
+        <a href="/portfolio" className="flex items-baseline gap-1.5 select-none group">
           <span className="text-lg font-black tracking-tighter uppercase text-white transition-colors">
             Manuel
           </span>
