@@ -1,16 +1,48 @@
-# React + Vite
+# Vid-Port | Video Production & Motion Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-retention video production and motion graphics portfolio built with React, Vite, and Tailwind CSS. The interface features a custom Non-Linear Editor (NLE) timeline container for showcasing showreels, kinetic typography, and a synchronized interactive scroll system.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Key Features
 
-## React Compiler
+* **Custom NLE Interface:** An interactive video playback monitor and track layout mimicking standard editing software.
+* **Kinetic Typography:** Custom high-retention text entry transitions powered by Framer Motion.
+* **Synchronized Scroll Intercept:** A custom JavaScript-managed smooth snap-scroll engine with index state tracking to prevent navigation link desyncs.
+* **Tailwind Architecture:** Clean, utility-first dark mode styling optimized for video presentation.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Core:** React 19 + Vite
+* **Styling:** Tailwind CSS
+* **Animation:** Framer Motion
+* **Deployment:** GitHub Pages (`gh-pages`)
+
+---
+
+## 💻 Local Development
+
+Clone the repository, then run all necessary commands:
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production (outputs to dist/)
+npm run build
+```
+
+---
+
+## 📦 Deployment
+
+This project is configured to build and deploy straight to GitHub Pages using the `gh-pages` branch deployment script. Push a fresh production build live with:
+
+```bash
+npm run deploy
+```
